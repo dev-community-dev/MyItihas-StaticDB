@@ -1,0 +1,651 @@
+{
+  "storyType": {
+    "types": {
+      "Epic Adventure": {
+        "prompt": "A grand, cinematic illustration of an epic adventure in ancient India. \nThe composition shows a heroic figure journeying through majestic landscapes—towering Himalayan peaks,\nancient forests, sacred rivers. Include:\n- A central hero in traditional Indian attire (dhoti, armor, ornate jewelry)\n- Dramatic lighting: golden sunset or dawn breaking over mountains\n- Sacred elements: lotus flowers, divine aura around the figure\n- Rich colors: deep golds, saffron, emerald greens, midnight blues\n- Artistic style: Classical Indian miniature with cinematic depth and perspective\n- Include Sanskrit/Devanagari script decorative borders or motifs\n- Mood: Triumphant, mystical, inspirational\n- Medium: Digital painting inspired by Mughal/Rajasthani miniature traditions\nSize and composition: Widescreen epic scale, suitable for hero banner on MyItihas platform",
+        "negative_prompt": "Modern clothing, Western art style, cartoon, flat design, neon colors, digital 3D rendering, anime, anime art style"
+      },
+      "Moral Tale": {
+        "prompt": "An illustrative scene depicting a moral lesson from ancient Indian stories.\nShow a poignant moment that teaches dharma (righteousness). Include:\n- A central character facing a moral dilemma or virtuous action\n- Supporting figures or animals (representing wisdom, karma)\n- Warm, intimate lighting (candlelight, soft sunlight through temple)\n- Sacred symbols: Yagna fire, temple bell, sacred texts\n- Rich earthy palette: terracotta, warm gold, deep indigo\n- Artistic style: Indian classical painting with narrative clarity\n- A sense of teaching and wisdom imparting\n- Include decorative Sanskrit borders or auspicious symbols\n- Mood: Contemplative, righteous, educational\n- Composition: Balanced, symmetrical or dramatically asymmetrical\nSuitable for story tile/card on MyItihas",
+        "negative_prompt": "Dark or grim mood, Western realism, graphic violence, cartoon simplification, modern setting, neon, photorealism"
+      },
+      "Devotional Story": {
+        "prompt": "A sacred, devotional scene depicting bhakti (spiritual devotion) in ancient India.\nShow a moment of profound connection with the divine. Include:\n- A devotee (in prayer, meditation, or worship) with radiant spiritual presence\n- Divine or celestial elements: glowing halo, celestial light, sacred geometry (mandala, yantra)\n- A temple, ashram, or sacred space filled with purity\n- Sacred objects: flowers, incense, Vedic symbols, religious iconography\n- Color palette: Rich golds, whites, soft purples, saffron, celestial blues\n- Artistic style: Indian temple art tradition with ethereal, transcendent qualities\n- Lighting: Heavenly glow, divine radiance, spiritual illumination\n- Decorative elements: Sanskrit mantras, lotus motifs, auspicious symbols\n- Mood: Sacred, peaceful, spiritually uplifting, deeply reverent\n- Medium: Digital art in classical Indian painting style\nComposition: Vertical or square, suitable for story card",
+        "negative_prompt": "Darkened tones, Western religious imagery, crude or cartoonish, modern aesthetics, photographic realism, anime"
+      },
+      "Philosophical Journey": {
+        "prompt": "An introspective, symbolic scene representing philosophical exploration and inner wisdom.\nShow a sage or seeker engaged in deep contemplation. Include:\n- A central figure (sage, rishi) meditating or teaching amid natural surroundings\n- Symbolic elements: ancient manuscripts (Vedas, Upanishads), sacred symbols, cosmic imagery\n- Sacred landscape: sacred mountain, ancient forest, river, ashram\n- Ethereal atmosphere with layered depth suggesting multiple planes of consciousness\n- Color palette: Deep indigo, gold, soft greens, whites, purples, earthy browns\n- Artistic style: Blend of Indian miniature and symbolic/spiritual art traditions\n- Include Sanskrit or philosophical inscriptions woven into the composition\n- Lighting: Contemplative, mystical, suggesting inner illumination\n- Mood: Meditative, profound, intellectually stimulating\n- Design approach: Layered composition suggesting depth of knowledge\nSuitable for philosophical story sections on MyItihas",
+        "negative_prompt": "Modern setting, Western philosophy imagery, photorealism, cartoon style, bright neon, commercialized spirituality"
+      },
+      "Historical Legend": {
+        "prompt": "A grand historical scene depicting a legendary moment from ancient India.\nShow an important historical or semi-legendary event with authenticity and drama. Include:\n- Central figures in historically accurate attire (ancient Indian kingdoms, Mauryan, Mughal influences)\n- Period-accurate architecture: ancient forts, palaces, temples\n- Rich historical detail: weapons, jewelry, architectural elements of the era\n- A moment of historical significance: a great victory, coronation, or pivotal event\n- Color palette: Rich earth tones, golds, deep reds, ochres, blues\n- Artistic style: Historical illustration blended with Indian classical painting\n- Crowd or court scenes with diverse characters\n- Include Sanskrit inscriptions or historical markers\n- Mood: Grand, authoritative, historically resonant, dramatic\n- Lighting: Natural or dramatic, emphasizing the historical moment\nComposition: Widescreen, cinematic historical painting style",
+        "negative_prompt": "Modern clothing or setting, Western historical art, fantasy elements, cartoon, neon colors, oversimplified"
+      },
+      "Folk Tale": {
+        "prompt": "A whimsical, charming illustration of a folk tale from rural or village India.\nShow a moment of folk wisdom, local magic, or rustic charm. Include:\n- Village or rural setting: huts, fields, forests, local temples\n- Folk characters: villagers, local heroes, talking animals, nature spirits\n- Folk magic elements: enchanted objects, mystical animals, village magic\n- Warm, accessible aesthetic: friendly, approachable, non-threatening\n- Color palette: Warm earth tones, forest greens, warm oranges, soft blues\n- Artistic style: Folk art tradition (Madhubani, Warli-inspired) blended with accessible narrative art\n- Include local details: folk patterns, traditional crafts, village life\n- Mood: Warm, humorous, wisdom-filled, community-oriented\n- Lighting: Natural, golden hour, warm and inviting\n- Decorative elements: Folk art patterns, local motifs\nSuitable for folk tale story cards",
+        "negative_prompt": "Urban setting, Western folklore, dark or scary imagery, cartoon oversimplification, cold colors, modern aesthetics"
+      },
+      "Divine Intervention": {
+        "prompt": "A dramatic scene showing divine intervention in human affairs.\nCapture the moment when gods or divine forces alter the course of events. Include:\n- Central human figure in crisis or pivotal moment\n- Divine being or celestial force manifesting (god, goddess, divine light, celestial chariot)\n- Sacred symbols and cosmic imagery: halo, divine weapons, celestial bodies\n- Dramatic moment: divine arrival, miraculous event, heavenly intervention\n- Color palette: Ethereal golds, celestial blues, whites, purples, glowing oranges\n- Artistic style: Indian deity art tradition with cinematic drama\n- Rich visual storytelling: showing cause (human need) and effect (divine response)\n- Include Sanskrit inscriptions or sacred geometry\n- Lighting: Divine glow, celestial light breaking through clouds\n- Mood: Awe-inspiring, miraculous, spiritually significant, dramatic\n- Composition: Vertical emphasis for descending divine power\nVisually striking for MyItihas hero sections",
+        "negative_prompt": "Western religious imagery, cartoon, photorealism, dark or demonic tones, modern aesthetics, anime"
+      },
+      "Warrior Saga": {
+        "prompt": "An intense, action-packed scene from a warrior epic.\nShow a moment of martial valor, heroic battle, or warrior codes. Include:\n- A heroic warrior in combat or preparation for battle\n- Ancient Indian weapons: swords, bows, shields, chariots\n- Period-accurate armor and attire: royal warrior dress, traditional weapons\n- Dynamic composition: movement, tension, heroic posture\n- Fellow warriors, chariots, or army in background\n- Sacred or divine elements: warrior's divine origin, sacred weapons, celestial support\n- Color palette: Rich reds, golds, deep blues, earth tones, blood oranges\n- Artistic style: Indian classical warrior art with dramatic action\n- Include ornate details: jewelry, flags, insignia, sacred symbols\n- Lighting: Dramatic, highlighting the warrior's power\n- Mood: Courageous, intense, honorable, martial, triumphant\n- Composition: Dynamic, emphasizing heroic action\nSuitable for epic story tiles",
+        "negative_prompt": "Cartoon violence, anime, Western medieval style, photorealism, dark grimdark tones, oversimplified"
+      },
+      "Divine Romance": {
+        "prompt": "A romantic, ethereal scene depicting divine or mythological love.\nCapture a tender moment between lovers with spiritual and mystical elements. Include:\n- Two central figures in loving interaction (divine couple or celestial lovers)\n- Romantic setting: sacred garden, temple, moonlit riverside, celestial realm\n- Soft, intimate lighting: moonlight, candlelight, divine glow\n- Sacred symbols: flowers (lotus, jasmine), sacred trees, cosmic imagery\n- Period-accurate attire: traditional Indian dress, ornate jewelry, divine adornments\n- Color palette: Romantic golds, soft purples, blues, pinks, whites, silvers\n- Artistic style: Indian classical love poetry art tradition (Rasa aesthetic)\n- Include poetic elements: sacred symbols, artistic details\n- Mood: Romantic, ethereal, spiritually elevated, tender\n- Composition: Intimate yet grand, emphasizing connection and cosmic harmony\n- Fine details: jewelry, fabric textures, floral elements\nSuitable for romantic story cards",
+        "negative_prompt": "Western romance imagery, cartoon, photorealism, modern setting, overly sensual, neon colors, anime"
+      },
+      "Creation Myth": {
+        "prompt": "A cosmic, grand scene depicting the creation of the universe according to Hindu cosmology.\nShow the primordial cosmic moment before or during creation. Include:\n- Cosmic elements: primordial waters (Adi Ananta), cosmic egg (Brahmaanda)\n- Divine creator figure: Brahma or cosmic consciousness manifesting\n- Sacred geometry: mandalas, yantras, cosmic patterns emerging from chaos\n- Layered cosmology: multiple planes of existence suggested through artistic depth\n- Ethereal, otherworldly atmosphere with cosmic light\n- Color palette: Deep space blues, golds, whites, purples, ethereal pinks\n- Artistic style: Mystical cosmic art blended with Indian classical aesthetics\n- Include Sanskrit mantras or sacred geometry patterns\n- Lighting: Primordial cosmic light, divine radiance\n- Mood: Awe-inspiring, transcendent, profound, cosmic scale\n- Composition: Vertical or mandala-like, suggesting cosmic expansion\nVisually stunning for MyItihas opening sections",
+        "negative_prompt": "Scientific cosmology imagery, modern space photography style, cartoon, anime, Western mythology references"
+      },
+      "Spiritual Transformation": {
+        "prompt": "An inspiring scene depicting spiritual awakening or transformation.\nShow a moment of inner metamorphosis or enlightenment. Include:\n- Central figure undergoing transformation (meditate, transcendence, enlightenment)\n- Visual metaphors: shedding of old self, inner light, ascension\n- Before/after suggested through artistic composition\n- Sacred symbols: lotus bloom, inner divine light, sacred geometry\n- Mystical setting: temple, ashram, sacred nature, cosmic realm\n- Color palette: Transformative golds and whites emerging from darker tones\n- Artistic style: Spiritual art tradition with symbolic depth\n- Include Sanskrit inscriptions or enlightenment symbols\n- Lighting: Journey from darkness to divine light\n- Mood: Hopeful, transcendent, inspirational, liberating\n- Composition: Suggesting upward journey or inner expansion\nEmotionally resonant for transformation-focused stories",
+        "negative_prompt": "Western self-help imagery, photorealism, cartoon, neon, commercialized spirituality, anime"
+      },
+      "Sacred Quest": {
+        "prompt": "An adventurous, mythological scene of a sacred pilgrimage or divine quest.\nShow a seeker on a spiritual journey. Include:\n- Central figure traveling with spiritual purpose (pilgrim, devotee, seeker)\n- Sacred destination or landmark: temple, mountain, sacred site, spiritual goal\n- Journey elements: path, sacred geography, celestial guides\n- Sacred landscape: sacred mountains (Kailash), rivers (Ganges), forests, temples\n- Spiritual companions: guides, deities, celestial beings assisting the quest\n- Color palette: Journey blues, goal golds, forest greens, sacred whites\n- Artistic style: Indian classical pilgrimage art tradition\n- Include spiritual symbols and sacred geography markers\n- Lighting: Mystical, emphasizing sacred sites\n- Mood: Determined, spiritually purposeful, hopeful, sacred\n- Composition: Following a journey through sacred landscape\nSuitable for quest-themed narrative stories",
+        "negative_prompt": "Modern tourism imagery, Western adventure art, cartoon, photorealism, neon, anime"
+      },
+      "Divine Tragedy": {
+        "prompt": "A powerful, emotional scene depicting divine or mythological tragedy.\nCapture a tragic moment with spiritual and noble dimensions. Include:\n- Central figure(s) in tragic situation with dignity and spiritual dimension\n- Sense of inevitable fate or dharmic conflict\n- Supporting characters showing emotional depth and witness\n- Sacred elements: spiritual resignation, cosmic acceptance, divine will\n- Color palette: Deep indigos, dark reds, golds (for nobility), blacks, earth tones\n- Artistic style: Classical Indian art depicting tragic moments with dignity\n- Include elements of dharma and cosmic order amid tragedy\n- Mood: Tragic yet noble, dignified, spiritually significant, cathartic\n- Lighting: Dramatic, emphasizing the gravity of the moment\n- Composition: Balanced yet suggesting emotional weight and inevitability\n- Fine details: expressions, gestures conveying profound emotion\nEmotionally impactful for serious narrative stories",
+        "negative_prompt": "Gratuitous violence, Western dark art, horror imagery, anime, cartoon, desecration of sacred themes"
+      },
+      "Divine Comedy": {
+        "prompt": "A lighthearted, humorous scene from divine or mythological stories.\nShow a moment of divine humor, wit, or playful mischief. Include:\n- Playful divine or celestial characters in humorous situation\n- Witty interaction or clever twist with sacred undertones\n- Warm, joyful atmosphere with spiritual elements\n- Color palette: Warm golds, bright teals, vibrant oranges, cheerful accents\n- Artistic style: Indian classical art with playful, approachable quality\n- Include humorous but respectful sacred elements\n- Mood: Joyful, witty, warm, spiritually light\n- Lighting: Warm, inviting, golden\n- Composition: Dynamic, suggesting movement and joy\n- Details: Expressive faces, playful gestures\nSuitable for light-hearted story sections",
+        "negative_prompt": "Crude humor, disrespectful mockery, cartoon oversimplification, dark comedy, anime"
+      },
+      "Mystical Mystery": {
+        "prompt": "An enigmatic, atmospheric scene with hidden meanings and mystical undertones.\nCapture a moment of cosmic mystery or spiritual secret. Include:\n- Mysterious elements: hidden knowledge, cosmic secrets, spiritual riddles\n- Layered composition suggesting multiple layers of reality\n- Enigmatic figures or symbols hinting at hidden wisdom\n- Mystical atmosphere: veils, shadows, divine mystery\n- Sacred symbols and esoteric imagery\n- Color palette: Mystical purples, deep indigos, golds, blacks, silvers\n- Artistic style: Indian mystical art tradition with symbolic depth\n- Include Sanskrit inscriptions or symbolic elements\n- Lighting: Mysterious, suggesting hidden dimensions\n- Mood: Intriguing, mysterious, spiritually profound, thought-provoking\n- Composition: Suggesting layers and hidden meanings\nPerfect for philosophical/mystical story sections",
+        "negative_prompt": "Cartoon, photorealism, Western occult imagery, horror, anime, desecration"
+      },
+      "Legendary Tale": {
+        "prompt": "A grand, storied scene depicting a legendary hero or event from ancient India.\nCapture the legendary quality of a timeless story. Include:\n- Legendary hero or figure in iconic moment\n- Elements that have become legendary through retelling\n- Majestic setting befitting a legendary tale\n- Sense of timelessness and cultural resonance\n- Sacred or divine connections to the hero\n- Color palette: Rich classics of legendary tales, golds, deep reds, blues\n- Artistic style: Indian classical narrative art with legendary quality\n- Include ornate details suggesting legendary status\n- Lighting: Grand, befitting legend\n- Mood: Legendary, iconic, culturally resonant, grand\n- Composition: Iconic and memorable\nSuitable for prominent story presentations",
+        "negative_prompt": "Modern setting, cartoon, photorealism, Western legendary imagery, anime"
+      },
+      "Divine Fable": {
+        "prompt": "A charming, teaching-focused scene featuring divine or celestial beings teaching through story.\nCapture the essence of a fable with sacred elements. Include:\n- Wise divine figure (god, sage, celestial being) as teacher\n- Students or listeners (mortals, animals, celestial beings) receiving wisdom\n- Symbolic elements: animals representing virtues, sacred setting\n- Clear moral lesson with spiritual dimension\n- Color palette: Warm, accessible golds, teals, greens, warm earth tones\n- Artistic style: Indian fable tradition (Panchatantra-inspired) with divine elements\n- Include symbolic animals or creatures\n- Mood: Wise, teaching-focused, accessible, spiritually enlightening\n- Lighting: Warm, inviting, suggesting wisdom-sharing\n- Composition: Clear focus on teacher-student dynamic\nSuitable for wisdom/teaching-focused stories",
+        "negative_prompt": "Cartoon oversimplification, Western fable style, anime, modern setting, neon"
+      },
+      "Divine Parable": {
+        "prompt": "A subtle, allegorical scene depicting spiritual truth through narrative.\nShow a moment with deep metaphorical and spiritual significance. Include:\n- Central story or scene with layered meanings\n- Subtle symbolism revealing spiritual truth\n- Sacred setting or divine witness\n- Figures acting out spiritual lesson\n- Color palette: Symbolic golds, spiritual blues, purples, sacred whites\n- Artistic style: Indian classical spiritual art with allegorical depth\n- Include subtle sacred symbols\n- Mood: Contemplative, spiritually profound, subtly enlightening\n- Lighting: Mystical, suggesting deeper truths\n- Composition: Inviting contemplation and interpretation\n- Details: Symbolic rather than literal\nPerfect for philosophical/allegorical stories",
+        "negative_prompt": "Obvious or blunt messaging, cartoon, anime, Western allegory style, photorealism"
+      },
+      "Divine Prophecy": {
+        "prompt": "A dramatic, visionary scene depicting divine prophecy or cosmic foreknowledge.\nCapture a moment of prophecy or revealed future. Include:\n- Seer or prophet figure in visionary state\n- Visions or prophecies manifesting (shown through artistic technique)\n- Future events hinted or revealed\n- Sacred elements: divine knowledge, cosmic awareness\n- Color palette: Mystical golds, deep purples, celestial blues, silvers\n- Artistic style: Indian visionary art tradition with mystical quality\n- Include Sanskrit or prophetic symbols\n- Mood: Visionary, prophetic, awe-inspiring, spiritually significant\n- Lighting: Otherworldly, suggesting divine knowledge\n- Composition: Suggesting visions or glimpses of future\n- Details: Prophetic symbols, mystical elements\nSuitable for fate/destiny-themed stories",
+        "negative_prompt": "Cartoon fortune-telling, Western occult imagery, photorealism, anime, horror"
+      },
+      "Divine Revenge": {
+        "prompt": "A powerful scene depicting divine or karmic retribution with spiritual dimensions.\nShow a moment of justice through divine or cosmic intervention. Include:\n- Figure facing consequences for actions (karmic justice)\n- Divine force or karma manifesting justice\n- Sense of cosmic order being restored\n- Sacred elements: dharma being upheld, cosmic balance\n- Color palette: Dramatic reds, dark indigos, golds (for divine justice), blacks\n- Artistic style: Indian classical justice and karma art\n- Include sacred symbols of justice and dharma\n- Mood: Powerful, just, spiritually significant, karmic\n- Lighting: Dramatic, emphasizing divine justice\n- Composition: Showing cause and effect, karma in action\n- Details: Expressions showing understanding of karma\nPowerful for justice/karma-themed stories",
+        "negative_prompt": "Gratuitous violence, Western revenge imagery, anime, horror, photorealism"
+      },
+      "Divine Sacrifice": {
+        "prompt": "A noble, spiritual scene depicting sacrifice for greater good or dharma.\nShow a moment of selfless sacrifice with spiritual dimension. Include:\n- Figure making noble sacrifice\n- Sense of purpose and dharmic duty\n- Observers witnessing the sacrifice with reverence\n- Sacred elements: sacrifice as spiritual offering, cosmic significance\n- Color palette: Golds (nobility), deep reds, whites (purity), purples\n- Artistic style: Indian classical sacrifice and devotion art tradition\n- Include sacred symbols: yagna, sacred geometry\n- Mood: Noble, spiritual, selfless, transcendent, purposeful\n- Lighting: Divine light on the sacrificing figure\n- Composition: Emphasizing nobility and cosmic significance\n- Details: Expressions of purpose and peace\nEmotionally powerful for duty/sacrifice-themed stories",
+        "negative_prompt": "Graphic violence, Western suffering imagery, anime, horror, photorealism"
+      },
+      "Animal Fable": {
+        "prompt": "A charming scene from an animal fable featuring animals as characters.\nCapture the wisdom of stories told through animal characters. Include:\n- Animals as main characters with human qualities\n- Fable setting: forest, village, natural environment\n- Clear moral lesson through animal actions\n- Warm, accessible tone with wisdom\n- Color palette: Forest greens, warm earth tones, teals, warm oranges\n- Artistic style: Traditional Indian fable art (Panchatantra tradition)\n- Include detailed animal expressions and interactions\n- Mood: Wise, warm, educational, accessible\n- Lighting: Natural, warm, inviting\n- Composition: Clear focus on animal characters and their lesson\n- Details: Expressive animals, natural settings\nPerfect for folk/fable story cards",
+        "negative_prompt": "Cartoon oversimplification, anime, Western Aesop style, photorealism, neon"
+      },
+      "Wisdom Tale": {
+        "prompt": "An illustrative scene depicting the imparting of wisdom or teaching.\nShow a moment of wisdom-sharing with spiritual and educational elements. Include:\n- Wise figure (sage, elder, deity) teaching\n- Listening students or seekers\n- Sacred setting: temple, ashram, natural wisdom site\n- Peaceful, contemplative atmosphere\n- Sacred symbols and teachings\n- Color palette: Warm golds, contemplative blues, greens, peaceful whites\n- Artistic style: Indian classical teaching art tradition\n- Include Sanskrit inscriptions or wisdom symbols\n- Mood: Wise, peaceful, educational, spiritually uplifting\n- Lighting: Warm, inviting, emphasizing wisdom\n- Composition: Clear teacher-student dynamic\n- Details: Expressions of understanding and reverence\nSuitable for wisdom/teaching-focused stories",
+        "negative_prompt": "Cartoon, photorealism, modern classroom setting, anime, oversimplification"
+      },
+      "Court Story": {
+        "prompt": "A dramatic scene from a royal court setting in ancient India.\nCapture a moment of intrigue, politics, or drama in a royal court. Include:\n- Royal court setting with period-accurate architecture\n- Royalty and courtiers in traditional attire and jewelry\n- Drama or important moment unfolding\n- Ornate details: throne, decorations, courtly elements\n- Rich, regal atmosphere\n- Color palette: Regal golds, deep reds, purples, blues, ivory\n- Artistic style: Indian classical Mughal/Rajasthani court art\n- Include architectural and decorative details\n- Mood: Dramatic, regal, politically charged, grand\n- Lighting: Regal, dramatic, highlighting key figures\n- Composition: Composition emphasizing power dynamics\n- Details: Ornate jewelry, fine fabrics, expressive faces\nSuitable for court/political story cards",
+        "negative_prompt": "Western court imagery, cartoon, photorealism, modern setting, anime"
+      },
+      "Riddle Story": {
+        "prompt": "An enigmatic scene depicting a riddle or puzzle central to the story.\nCapture the mystery and wisdom of a riddle narrative. Include:\n- Mysterious setting with enigmatic elements\n- Figures puzzling over or presenting a riddle\n- Symbols hinting at the riddle's answer\n- Atmosphere of mystery and intellectual challenge\n- Sacred or cosmic dimensions to the puzzle\n- Color palette: Mystical golds, purples, indigos, silvers\n- Artistic style: Indian mystical art with symbolic elements\n- Include Sanskrit symbols or geometric puzzles\n- Mood: Mysterious, intellectually engaging, wisdom-seeking\n- Lighting: Mysterious, suggesting hidden knowledge\n- Composition: Suggesting layers and hidden meanings\n- Details: Symbolic rather than obvious\nPerfect for intellectual/mystery stories",
+        "negative_prompt": "Cartoon, photorealism, Western mystery art, anime, overly obvious"
+      },
+      "Trickster Tale": {
+        "prompt": "A playful, dynamic scene depicting a trickster figure or clever deception.\nCapture the wit and cleverness of a trickster narrative. Include:\n- Clever trickster character in midst of trick or cleverness\n- Dynamic interaction showing wit and cunning\n- Victims or observers reacting to the trick\n- Playful, humorous atmosphere with wisdom undertones\n- Color palette: Vibrant teals, warm oranges, golds, playful accents\n- Artistic style: Indian classical trickster art with playful quality\n- Include details showing cleverness and wit\n- Mood: Playful, clever, witty, entertaining, wisdom-filled\n- Lighting: Warm, dynamic, emphasizing action\n- Composition: Dynamic, showing clever interaction\n- Details: Expressive faces showing wit and reaction\nSuitable for humor/cleverness-themed stories",
+        "negative_prompt": "Crude humor, malicious trickery, cartoon oversimplification, anime, Western trickster style"
+      },
+      "Origin Story": {
+        "prompt": "A mythological scene depicting the origin or creation of something significant.\nShow the moment something came into being. Include:\n- Origin moment: creation of deity, place, concept, or thing\n- Cosmic or mythological atmosphere\n- Sacred or divine elements at the moment of origin\n- Sense of primordial or foundational significance\n- Color palette: Cosmic golds, whites, blues, purples, earth tones\n- Artistic style: Indian mythological origin art tradition\n- Include sacred symbols and cosmic imagery\n- Mood: Foundational, cosmic, spiritually significant, majestic\n- Lighting: Divine or primordial light\n- Composition: Suggesting cosmic emergence or creation\n- Details: Sacred and symbolic elements\nPerfect for origin/creation-focused stories",
+        "negative_prompt": "Scientific imagery, modern creation theories, photorealism, Western mythology, anime"
+      },
+      "Heroic Journey": {
+        "prompt": "A grand, inspiring scene depicting a hero's transformative journey.\nCapture key moments or the essence of a heroic quest. Include:\n- Hero figure in journey or transformation\n- Journey landscape: mountains, challenges, sacred sites\n- Obstacles overcome and growth evident\n- Sacred or cosmic significance to the journey\n- Sense of character development and destiny\n- Color palette: Journey blues, triumph golds, diverse landscape colors\n- Artistic style: Indian classical epic journey art\n- Include journey symbols and divine guidance\n- Mood: Inspiring, triumphant, transformative, heroic\n- Lighting: Varied to show journey and challenges\n- Composition: Showing progress and transformation\n- Details: Heroic posture, expressions of determination\nSuitable for epic/transformation stories",
+        "negative_prompt": "Modern adventure art, cartoon, photorealism, anime, Western hero imagery"
+      },
+      "Redemption Story": {
+        "prompt": "A hopeful, transformative scene depicting redemption or spiritual renewal.\nShow a moment of redemption or inner transformation. Include:\n- Figure seeking or achieving redemption\n- Sense of past mistakes being overcome\n- Spiritual transformation and renewal\n- Sacred elements: forgiveness, grace, renewal\n- Atmosphere of hope and positive transformation\n- Color palette: From darker tones transitioning to hopeful golds and whites\n- Artistic style: Indian classical redemption and spiritual renewal art\n- Include sacred symbols of renewal and grace\n- Mood: Hopeful, transformative, spiritually uplifting, compassionate\n- Lighting: Journey from shadow to divine light\n- Composition: Suggesting transformation and renewal\n- Details: Expressions of remorse, hope, and transformation\nEmotionally resonant for redemption-themed stories",
+        "negative_prompt": "Dark imagery, despair, Western guilt imagery, anime, photorealism, overly simplistic"
+      },
+      "Coming of Age": {
+        "prompt": "A meaningful scene depicting a youth's transition to maturity.\nCapture a pivotal coming-of-age moment with cultural and spiritual dimensions. Include:\n- Young figure at threshold of adulthood\n- Mentors or guides assisting the transition\n- Sacred or cultural ritual elements\n- Sense of responsibility and growth\n- Connection to dharma and life purpose\n- Color palette: Transitional from youth to maturity, golds, growing complexity\n- Artistic style: Indian classical initiation and growth art tradition\n- Include cultural/spiritual initiation elements (Upanayana, etc.)\n- Mood: Meaningful, respectful, transformative, spiritually significant\n- Lighting: Emphasizing the transition and responsibility\n- Composition: Showing guidance and growth\n- Details: Expressions of maturity dawning, cultural markers\nPerfect for coming-of-age/maturation stories",
+        "negative_prompt": "Modern setting, Western coming-of-age imagery, anime, cartoon, photorealism"
+      },
+      "Battle Epic": {
+        "prompt": "A massive, intense scene depicting an epic battle or war.\nCapture the scale and drama of ancient Indian warfare. Include:\n- Large-scale battle with armies and conflict\n- Central heroic figures in combat\n- Ancient Indian weapons: chariots, archers, warriors with traditional arms\n- Historical or mythological setting\n- Sense of cosmic or dharmic significance to the battle\n- Color palette: Rich reds, golds (for heroism), deep blues, earth tones\n- Artistic style: Indian classical battle art (inspired by Mughal war paintings)\n- Include detailed armor, weapons, and military formations\n- Mood: Epic, intense, heroic, significant\n- Lighting: Dramatic, emphasizing heroic action and sacrifice\n- Composition: Dynamic, showing battle chaos and heroic centers\n- Details: Detailed warriors, weapons, expressions of valor\nVisually stunning for epic battle stories",
+        "negative_prompt": "Gratuitous gore, Western battle art, photorealism, anime, oversimplification"
+      }
+    },
+    "images": {}
+  },
+  "theme": {
+    "types": {
+      "Dharma (Duty)": {
+        "prompt": "An illustration exploring the concept of Dharma (righteous duty).\nShow a figure performing their duty with integrity and purpose. Include:\n- Central character fulfilling duty/responsibility with dignity\n- Sacred or cosmic dimension to the duty\n- Sense of righteousness and higher purpose\n- Supporting elements showing the broader context of duty\n- Color palette: Golds (dharma), deep blues, whites (purity), earth tones\n- Artistic style: Indian classical dharma art tradition\n- Include Sanskrit or sacred symbols of duty\n- Mood: Righteous, purposeful, dignified, noble\n- Lighting: Emphasizing the noble duty\n- Composition: Showing duty with cosmic significance\n- Details: Expressions of commitment and righteousness\nSuitable for dharma/duty-themed story cards on MyItihas",
+        "negative_prompt": "Oppression imagery, dark duty, anime, Western obligation imagery, photorealism"
+      },
+      "Karma (Action)": {
+        "prompt": "A scene illustrating the concept of Karma (action and consequence).\nShow the interconnection between action and result. Include:\n- Action being taken with visible cosmic or immediate consequences\n- Sense of cause and effect unfolding\n- Sacred symbols representing karma and cosmic law\n- Figure understanding the weight of their actions\n- Color palette: Dynamic action golds, blues, earth tones, transition colors\n- Artistic style: Indian classical karma and causality art\n- Include karma symbols and cosmic imagery\n- Mood: Aware, consequential, understanding, spiritually significant\n- Lighting: Emphasizing the chain of cause and effect\n- Composition: Showing action and consequence\n- Details: Expressions of awareness, action details\nPerfect for karma/consequence-themed stories",
+        "negative_prompt": "Punishment imagery, Western justice art, anime, photorealism, oversimplification"
+      },
+      "Bhakti (Devotion)": {
+        "prompt": "A deeply spiritual scene expressing Bhakti (devotion and love for the divine).\nCapture the emotion and spirituality of complete devotion. Include:\n- Devotee in profound devotional state (prayer, bhajan singing, meditation)\n- Divine presence or recipient of devotion\n- Emotional intensity and spiritual connection\n- Sacred setting: temple, ashram, sacred nature\n- Color palette: Spiritual golds, whites, purples, cosmic blues\n- Artistic style: Indian bhakti poetry and devotion art tradition\n- Include devotional symbols and sacred iconography\n- Mood: Deeply devotional, emotionally resonant, spiritually elevating\n- Lighting: Divine presence and emotional intensity\n- Composition: Showing the devotee-divine connection\n- Details: Expressions of profound love and devotion\nTouching and spiritually resonant for devotion-focused stories",
+        "negative_prompt": "Cold spirituality, Western religious imagery, anime, photorealism, oversimplification"
+      },
+      "Moksha (Liberation)": {
+        "prompt": "A transcendent scene depicting Moksha (spiritual liberation).\nShow the moment of or state of ultimate spiritual liberation. Include:\n- Figure in state of liberation or achieving moksha\n- Sense of ultimate freedom and release\n- Dissolution of ego or attachment\n- Cosmic unity or divine consciousness\n- Color palette: Ethereal whites, golds, celestial blues, purples, silvers\n- Artistic style: Indian liberation and enlightenment art tradition\n- Include Sanskrit or liberation symbols\n- Mood: Transcendent, liberating, blissful, spiritually ultimate\n- Lighting: Divine light of liberation, celestial glow\n- Composition: Suggesting ascension or dissolution into cosmos\n- Details: Expressions of ultimate peace and freedom\nPerfect for liberation/enlightenment-focused stories",
+        "negative_prompt": "Darkness, Western afterlife imagery, anime, photorealism, desecration"
+      },
+      "Sacrifice & Loyalty": {
+        "prompt": "A powerful scene depicting sacrifice and unwavering loyalty.\nShow a moment of selfless loyalty or sacrifice for a cause. Include:\n- Character making sacrifice for loyalty (to person, cause, dharma)\n- Sense of unwavering commitment\n- Observer or beneficiary of the loyalty\n- Sacred or noble dimensions\n- Color palette: Golds (nobility), deep reds, whites (purity), teals\n- Artistic style: Indian classical devotion and loyalty art\n- Include symbols of loyalty and sacrifice\n- Mood: Noble, unwavering, emotionally powerful, purposeful\n- Lighting: Dramatic, emphasizing the sacrifice's significance\n- Composition: Showing loyalty and sacrifice clearly\n- Details: Expressions of commitment, fine details of sacrifice\nEmotionally impactful for loyalty/sacrifice-themed stories",
+        "negative_prompt": "Manipulation, coercion, anime, Western betrayal imagery, photorealism"
+      },
+      "Knowledge & Wisdom": {
+        "prompt": "An illustrative scene celebrating Knowledge and Wisdom.\nShow a moment of wisdom-sharing or enlightenment through knowledge. Include:\n- Wise figure or pursuit of knowledge\n- Sacred texts, symbols, or knowledge sources\n- Seekers or students engaged in learning\n- Atmosphere of intellectual and spiritual growth\n- Color palette: Golds (knowledge), deep indigos, whites, soft greens\n- Artistic style: Indian classical knowledge and wisdom art tradition\n- Include Sanskrit texts, sacred geometry, wisdom symbols\n- Mood: Enlightening, respectful, intellectually engaging, spiritually uplifting\n- Lighting: Warm and illuminating\n- Composition: Showing knowledge-sharing or discovery\n- Details: Sacred symbols, expressions of understanding\nPerfect for wisdom/knowledge-focused stories",
+        "negative_prompt": "Ignorance imagery, Western academic art, anime, photorealism, oversimplification"
+      },
+      "Family & Relationships": {
+        "prompt": "A warm, intimate scene exploring Family and Relationships.\nShow meaningful family bonds or relationship moments. Include:\n- Family members or loved ones in meaningful interaction\n- Emotional connection and mutual care\n- Domestic or intimate setting with warmth\n- Sense of family duty and dharma\n- Color palette: Warm golds, teals, reds, comfort colors\n- Artistic style: Indian classical family and relationship art\n- Include cultural/family elements\n- Mood: Warm, emotionally resonant, family-centered, loving\n- Lighting: Warm and intimate\n- Composition: Showing connection and relationships\n- Details: Expressions of love, familial affection, cultural markers\nWarm and emotionally resonant for family/relationship stories",
+        "negative_prompt": "Dysfunction, Western nuclear family imagery, anime, photorealism, cold atmospherics"
+      },
+      "Power & Leadership": {
+        "prompt": "A commanding scene depicting Power and Leadership.\nShow a leader in a moment of wise governance or leadership. Include:\n- Leader figure in position of authority and responsibility\n- Sense of wise and righteous leadership\n- Court, subjects, or followers witnessing leadership\n- Balance of power with dharma and responsibility\n- Color palette: Royal golds, deep reds, blues, purples, ivory\n- Artistic style: Indian classical leadership and governance art\n- Include symbols of authority and dharmic rule\n- Mood: Authoritative, wise, responsible, commanding\n- Lighting: Emphasizing authority and presence\n- Composition: Showing leader and their domain\n- Details: Ornate symbols of authority, wise expressions\nPerfect for power/leadership-themed stories",
+        "negative_prompt": "Tyranny, Western power imagery, anime, photorealism, oppression"
+      },
+      "Spiritual Transformation": {
+        "prompt": "An inspiring scene of Spiritual Transformation.\nShow a moment of spiritual awakening or growth. Include:\n- Figure undergoing spiritual change or awakening\n- Visual metaphors for transformation\n- Movement from one state to elevated state\n- Sacred symbols and spiritual elements\n- Color palette: Transformative golds, whites emerging from darker tones\n- Artistic style: Indian spiritual transformation and enlightenment art\n- Include sacred symbols of change\n- Mood: Hopeful, transformative, spiritually uplifting, inspiring\n- Lighting: From shadow to divine light\n- Composition: Suggesting transformation and ascension\n- Details: Symbolic, expressing inner change\nInspiring for spiritual growth-focused stories",
+        "negative_prompt": "Dark imagery, Western conversion imagery, anime, photorealism, commercialized spirituality"
+      },
+      "Divine Justice": {
+        "prompt": "A powerful scene depicting Divine Justice.\nShow justice being served through cosmic or divine order. Include:\n- Justice being served with cosmic significance\n- Sense of karma and universal law\n- Witness to the justice unfolding\n- Sacred symbols of justice and dharma\n- Color palette: Golds (justice), deep reds, blues, whites (order)\n- Artistic style: Indian classical justice and karma art\n- Include dharma and justice symbols\n- Mood: Just, powerful, cosmically significant, ordered\n- Lighting: Dramatic, emphasizing justice\n- Composition: Showing justice clearly\n- Details: Expressions of understanding, cosmic order\nPerfect for justice/karma-themed stories",
+        "negative_prompt": "Vengeance, Western justice imagery, anime, photorealism, overly harsh"
+      },
+      "Destiny & Fate": {
+        "prompt": "A mystical scene exploring Destiny and Fate.\nShow the intersection of personal agency and cosmic destiny. Include:\n- Figure encountering or understanding their destiny\n- Sense of cosmic inevitability and purpose\n- Elements showing predestined path\n- Sacred symbols and cosmic imagery\n- Color palette: Mystical golds, deep purples, indigos, silvers\n- Artistic style: Indian mystical fate and destiny art\n- Include Sanskrit or fate symbols\n- Mood: Mystical, purposeful, inevitable, spiritually resonant\n- Lighting: Mysterious and revealing\n- Composition: Suggesting cosmic pattern or destiny\n- Details: Symbolic, expressing cosmic significance\nPerfect for destiny/fate-themed stories",
+        "negative_prompt": "Despair, Western determinism imagery, anime, photorealism, oversimplification"
+      },
+      "Cosmic Harmony": {
+        "prompt": "A beautiful, balanced scene expressing Cosmic Harmony.\nShow the perfect balance and interconnection of cosmic elements. Include:\n- Elements in perfect balance and harmony\n- Sacred geometry and cosmic patterns\n- Sense of universal order and interconnection\n- Divine beings or cosmic forces in harmony\n- Color palette: Harmonious golds, blues, greens, purples, whites\n- Artistic style: Indian cosmic and mandala art tradition\n- Include sacred geometry, mandalas, yantras\n- Mood: Harmonious, balanced, peaceful, cosmic\n- Lighting: Balanced, representing cosmic order\n- Composition: Symmetrical or harmoniously balanced\n- Details: Sacred geometric patterns, cosmic elements\nBeautiful and meditative for harmony-focused stories",
+        "negative_prompt": "Chaos, Western abstract art, anime, photorealism, discord imagery"
+      },
+      "Sacred Traditions": {
+        "prompt": "An illustrative scene celebrating Sacred Traditions.\nShow the practice and preservation of sacred cultural traditions. Include:\n- Traditional ritual or practice being performed\n- Sacred objects and traditional elements\n- Continuity of tradition across generations\n- Spiritual significance of the tradition\n- Color palette: Rich traditional colors, golds, reds, teals, whites\n- Artistic style: Indian classical tradition and ritual art\n- Include traditional symbols and sacred objects\n- Mood: Respectful, reverent, culturally significant, sacred\n- Lighting: Warm and emphasizing sacred practice\n- Composition: Showing tradition and practice clearly\n- Details: Accurate traditional elements and symbols\nPerfect for tradition/cultural-focused stories",
+        "negative_prompt": "Modern practices, Western cultural imagery, anime, photorealism, disrespect"
+      },
+      "Divine Redemption": {
+        "prompt": "A hopeful, transcendent scene of Divine Redemption.\nShow spiritual redemption through divine grace. Include:\n- Figure receiving or experiencing divine grace\n- Sense of salvation and spiritual renewal\n- Divine presence or intervention\n- Sacred elements of redemption\n- Color palette: Hopeful golds, whites, soft purples, divine blues\n- Artistic style: Indian redemption and grace art tradition\n- Include sacred symbols of grace and redemption\n- Mood: Hopeful, graceful, spiritually uplifting, transformative\n- Lighting: Divine light and grace\n- Composition: Showing redemption moment\n- Details: Expressions of gratitude and renewal\nEmotionally uplifting for redemption-focused stories",
+        "negative_prompt": "Despair, harsh judgment, anime, photorealism, Western religious imagery"
+      },
+      "Eternal Truths": {
+        "prompt": "A profound, timeless scene expressing Eternal Truths.\nShow universal principles that transcend time. Include:\n- Representation of universal spiritual or philosophical truth\n- Timeless quality suggesting eternal significance\n- Cosmic or transcendent elements\n- Sacred symbols of universal wisdom\n- Color palette: Eternal golds, timeless blues, whites, purples\n- Artistic style: Indian eternal wisdom and vedic art tradition\n- Include Sanskrit or eternal wisdom symbols\n- Mood: Profound, timeless, universally significant, transcendent\n- Lighting: Timeless and illuminating\n- Composition: Suggesting eternity and universality\n- Details: Symbolic and transcendent\nPerfect for philosophical/eternal truth stories",
+        "negative_prompt": "Temporal imagery, Western philosophy art, anime, photorealism, trendy elements"
+      },
+      "Cleverness & Wit": {
+        "prompt": "A dynamic, playful scene celebrating Cleverness and Wit.\nShow a clever solution or witty moment. Include:\n- Clever character in midst of wit or clever action\n- Dynamic interaction showing intelligence\n- Moment of clever insight or solution\n- Playful but intelligent atmosphere\n- Color palette: Vibrant teals, warm oranges, golds, playful accents\n- Artistic style: Indian classical cleverness and wit art\n- Include details showing cleverness\n- Mood: Playful, clever, intellectually engaging, entertaining\n- Lighting: Warm and dynamic\n- Composition: Showing clever interaction\n- Details: Expressive faces, detailed action\nPerfect for wit/cleverness-themed stories",
+        "negative_prompt": "Crude humor, deception, anime, Western trickster imagery, photorealism"
+      },
+      "Humility & Pride": {
+        "prompt": "An insightful scene exploring Humility and Pride.\nShow the balance between confidence and humility. Include:\n- Figure learning or demonstrating humility\n- Contrast between pride and humility\n- Sacred or moral dimension to the lesson\n- Sense of spiritual understanding\n- Color palette: Grounded earth tones, golds, blues, reflective tones\n- Artistic style: Indian classical virtue and vice art\n- Include symbols of humility and spiritual awareness\n- Mood: Thoughtful, morally instructive, spiritually significant\n- Lighting: Emphasizing internal reflection\n- Composition: Showing the teaching or learning\n- Details: Expressions of understanding\nPerfect for virtue/character-focused stories",
+        "negative_prompt": "Arrogance, humiliation, Western pride imagery, anime, photorealism"
+      },
+      "Friendship & Trust": {
+        "prompt": "A warm, meaningful scene celebrating Friendship and Trust.\nShow the bonds of friendship and mutual trust. Include:\n- Friends or companions in meaningful interaction\n- Sense of trust, loyalty, and mutual care\n- Shared adventure or support\n- Authentic emotional connection\n- Color palette: Warm friendship colors, golds, teals, soft hues\n- Artistic style: Indian classical friendship and companionship art\n- Include cultural elements of friendship\n- Mood: Warm, trusting, emotionally resonant, supportive\n- Lighting: Warm and inviting\n- Composition: Showing friendship bonds\n- Details: Expressions of trust and affection\nWarm and emotionally resonant for friendship-focused stories",
+        "negative_prompt": "Betrayal, coldness, anime, Western friendship imagery, photorealism"
+      },
+      "Courage & Fear": {
+        "prompt": "A powerful scene exploring Courage and Fear.\nShow bravery in the face of fear. Include:\n- Character facing fear with courage\n- Fear represented visually but overcome by courage\n- Moment of heroic action despite fear\n- Sacred or noble dimension to courage\n- Color palette: Golds (courage), reds, blues, darker fear-tones\n- Artistic style: Indian classical courage and heroism art\n- Include symbols of courage and dharma\n- Mood: Brave, inspiring, powerful, heroic\n- Lighting: Dramatic, emphasizing courage\n- Composition: Showing fear and courage\n- Details: Heroic expressions, determined postures\nInspiring for courage/heroism-focused stories",
+        "negative_prompt": "Despair, cowardice, anime, Western fear imagery, photorealism"
+      },
+      "Greed & Contentment": {
+        "prompt": "An instructive scene exploring Greed and Contentment.\nShow the contrast between greed and peaceful contentment. Include:\n- Figure learning or experiencing contentment\n- Contrast with greed or excessive desire\n- Moral or spiritual lesson\n- Sacred or philosophical dimension\n- Color palette: Contentment greens and golds, greed reds, tonal contrast\n- Artistic style: Indian classical virtue and vice art\n- Include moral/spiritual symbols\n- Mood: Wise, contemplative, morally instructive\n- Lighting: Emphasizing inner peace or greed's emptiness\n- Composition: Showing the contrast\n- Details: Expressions showing inner states\nPerfect for morality-focused stories",
+        "negative_prompt": "Glorification of greed, Western consumerism imagery, anime, photorealism"
+      },
+      "Truth & Deception": {
+        "prompt": "An insightful scene exploring Truth and Deception.\nShow the power of truth or consequences of deception. Include:\n- Truth being revealed or honored\n- Deception being unraveled\n- Sense of moral significance\n- Character moment of truth\n- Color palette: Truth golds and whites, deception shadows and darks\n- Artistic style: Indian classical truth and virtue art\n- Include symbols of truth and justice\n- Mood: Revealing, morally significant, wise, meaningful\n- Lighting: Truth illuminated, deception revealed\n- Composition: Showing truth's emergence\n- Details: Expressions of revelation, understanding\nPerfect for truth/integrity-focused stories",
+        "negative_prompt": "Celebration of deception, manipulation, anime, photorealism, Western morality art"
+      },
+      "Compassion & Cruelty": {
+        "prompt": "A meaningful scene exploring Compassion and Cruelty.\nShow compassion overcoming or contrasting with cruelty. Include:\n- Compassionate action or character\n- Sense of empathy and kindness\n- Moral significance of compassion\n- Sacred or spiritual dimension\n- Color palette: Compassion warm golds and whites, cruelty darks\n- Artistic style: Indian classical virtue and compassion art\n- Include symbols of compassion and dharma\n- Mood: Compassionate, morally instructive, heartfelt\n- Lighting: Emphasizing compassion's light\n- Composition: Showing compassion clearly\n- Details: Gentle expressions, kind gestures\nPerfect for compassion/virtue-focused stories",
+        "negative_prompt": "Cruelty imagery, violence, anime, Western morality art, photorealism"
+      },
+      "Unity & Division": {
+        "prompt": "An illustrative scene exploring Unity and Division.\nShow the strength of unity and consequences of division. Include:\n- United community or figures working together\n- Contrast with division or separation\n- Sense of strength in unity\n- Moral or social significance\n- Color palette: Unity harmonious colors, division contrasting colors\n- Artistic style: Indian classical unity and community art\n- Include symbols of unity and harmony\n- Mood: Harmonious, wise, communal, meaningful\n- Lighting: Unifying light\n- Composition: Showing unity clearly\n- Details: Connected figures, harmonious arrangement\nPerfect for unity/community-focused stories",
+        "negative_prompt": "Conflict, division, anime, Western social art, photorealism"
+      },
+      "Patience & Haste": {
+        "prompt": "A wise scene exploring Patience and Haste.\nShow the virtue of patience and folly of haste. Include:\n- Patient character or waiting moment\n- Contrast with hasty or reckless action\n- Wisdom of patience shown\n- Moral or spiritual lesson\n- Color palette: Patience calm colors, haste dynamic colors\n- Artistic style: Indian classical virtue and wisdom art\n- Include symbols of patience and dharma\n- Mood: Calm, wise, contemplative, instructive\n- Lighting: Patient, unhurried\n- Composition: Showing patience's virtue\n- Details: Serene expressions, thoughtful arrangements\nPerfect for wisdom/virtue-focused stories",
+        "negative_prompt": "Recklessness, chaos, anime, Western productivity imagery, photorealism"
+      },
+      "Good vs Evil": {
+        "prompt": "A dramatic scene showing the eternal conflict of Good versus Evil.\nShow the battle between righteous and unrighteous forces. Include:\n- Good and evil forces in dramatic confrontation\n- Clear moral dimension\n- Sense of cosmic significance\n- Sacred symbols and divine elements on the good side\n- Color palette: Good bright golds and whites, evil dark and shadowy\n- Artistic style: Indian classical good vs evil art tradition\n- Include dharma and cosmic justice symbols\n- Mood: Dramatic, morally clear, spiritually significant, heroic\n- Lighting: Dramatic, emphasizing good's light\n- Composition: Dynamic, showing the conflict\n- Details: Heroic expressions, dramatic action\nPerfect for epic good vs evil stories",
+        "negative_prompt": "Moral ambiguity, glorification of evil, anime, Western good vs evil imagery"
+      },
+      "Inner Peace": {
+        "prompt": "A serene, meditative scene depicting Inner Peace.\nShow a state of spiritual calm and mental quietude. Include:\n- Figure in state of meditation or peaceful contemplation\n- Serene, undisturbed atmosphere\n- Absence of external conflict or disturbance\n- Sacred or spiritual setting\n- Color palette: Peaceful whites, soft golds, calming blues and greens\n- Artistic style: Indian meditation and peace art tradition\n- Include meditation and peace symbols\n- Mood: Peaceful, serene, meditative, spiritually restful\n- Lighting: Soft, calming, meditative\n- Composition: Balanced, suggesting inner harmony\n- Details: Expressions of peace, serene arrangements\nPerfect for meditation/peace-focused stories",
+        "negative_prompt": "Chaos, conflict, Western relaxation imagery, anime, photorealism"
+      },
+      "Self-Discovery": {
+        "prompt": "An introspective scene depicting Self-Discovery.\nShow a character discovering their true nature or purpose. Include:\n- Character in moment of self-realization\n- Sense of inner awakening and understanding\n- Sacred or spiritual dimension to discovery\n- Visual metaphors for self-discovery\n- Color palette: Revealing golds, introspective blues, whites\n- Artistic style: Indian self-discovery and spiritual awakening art\n- Include symbols of self-realization\n- Mood: Introspective, enlightening, meaningful, transformative\n- Lighting: Inner illumination\n- Composition: Suggesting inner journey and discovery\n- Details: Symbolic and introspective\nPerfect for self-discovery/transformation stories",
+        "negative_prompt": "Confusion, darkness, Western psychology imagery, anime, photorealism"
+      },
+      "Forgiveness": {
+        "prompt": "A touching, redemptive scene depicting Forgiveness.\nShow a moment of forgiveness and reconciliation. Include:\n- Characters in moment of forgiveness\n- Sense of compassion and release\n- Healing and reconciliation\n- Sacred or spiritual dimension to forgiveness\n- Color palette: Hopeful golds, whites, healing teals and greens\n- Artistic style: Indian forgiveness and grace art tradition\n- Include symbols of forgiveness and grace\n- Mood: Compassionate, healing, redemptive, spiritually uplifting\n- Lighting: Warm and forgiving\n- Composition: Showing connection and reconciliation\n- Details: Gentle expressions, compassionate interactions\nEmotionally powerful for forgiveness-focused stories",
+        "negative_prompt": "Unresolved conflict, bitterness, anime, Western forgiveness imagery, photorealism"
+      },
+      "Perseverance": {
+        "prompt": "An inspiring scene depicting Perseverance.\nShow steadfast determination and persistence. Include:\n- Character persevering through challenges\n- Sense of unwavering determination\n- Obstacles overcome through persistence\n- Sacred or noble dimension to perseverance\n- Color palette: Determined golds, strong reds, blues, earth tones\n- Artistic style: Indian classical perseverance and heroism art\n- Include symbols of strength and dharma\n- Mood: Determined, inspiring, heroic, purposeful\n- Lighting: Dramatic, emphasizing strength\n- Composition: Showing perseverance and progress\n- Details: Strong expressions, determined postures\nInspiring for perseverance-focused stories",
+        "negative_prompt": "Despair, weakness, anime, Western struggle imagery, photorealism"
+      },
+      "Honor & Shame": {
+        "prompt": "A dramatic scene exploring Honor and Shame.\nShow the weight of honor and consequences of shame. Include:\n- Character defending or upholding honor\n- Contrast with shame or dishonor\n- Sense of social and moral significance\n- Sacred or noble dimension\n- Color palette: Honor golds and reds, shame darks and muted tones\n- Artistic style: Indian classical honor and dignity art\n- Include symbols of honor and dharma\n- Mood: Noble, serious, morally significant, dramatic\n- Lighting: Emphasizing honor's nobility\n- Composition: Showing honor clearly\n- Details: Dignified expressions, noble arrangements\nPerfect for honor/dignity-focused stories",
+        "negative_prompt": "Humiliation, cheap shame, anime, Western honor imagery, photorealism"
+      }
+    }
+  },
+  "mainCharacter": {
+    "types": {
+      "Divine Being": {
+        "prompt": "An illustration of a Divine Being in classical Indian art style.\nShow a celestial deity with godly presence. Include:\n- Divine figure radiating cosmic power and sacred presence\n- Heavenly attributes: halo, celestial aura, multiple arms (if appropriate)\n- Sacred symbols and divine iconography\n- Ethereal, otherworldly atmosphere\n- Rich divine adornments: jewelry, celestial clothing\n- Color palette: Celestial golds, divine blues, whites, purples\n- Artistic style: Classical Indian deity art tradition\n- Include Sanskrit mantras or sacred symbols\n- Mood: Divine, powerful, sacred, transcendent\n- Lighting: Heavenly radiance\n- Composition: Majestic, emphasizing divinity\nSuitable for representing divine characters on MyItihas",
+        "negative_prompt": "Demonic or dark imagery, Western deity concepts, anime, photorealism"
+      },
+      "Sage/Rishi": {
+        "prompt": "An illustration of a Sage or Rishi in classical Indian style.\nShow a wise ascetic in meditative or teaching state. Include:\n- Elderly or ageless sage figure with spiritual presence\n- Ascetic attire: simple robes, matted hair or calm composure\n- Sacred setting: ashram, forest, meditation space\n- Sense of accumulated wisdom and spiritual power\n- Sacred symbols: rosary, sacred texts, meditation posture\n- Color palette: Earth tones, spiritual golds and blues\n- Artistic style: Indian sage and ascetic art tradition\n- Include Sanskrit or spiritual symbols\n- Mood: Wise, serene, spiritually powerful, contemplative\n- Lighting: Warm, spiritual illumination\n- Composition: Emphasizing wisdom and inner peace\nPerfect for sage/teacher characters",
+        "negative_prompt": "Modern clothing, Western monk imagery, anime, photorealism, darkness"
+      },
+      "Warrior/Kshatriya": {
+        "prompt": "An illustration of a Warrior or Kshatriya in classical Indian style.\nShow a noble warrior with martial prowess. Include:\n- Warrior figure in martial attire and bearing\n- Ancient Indian weapons: sword, shield, armor\n- Sense of noble purpose and martial excellence\n- Confident, powerful posture\n- Rich warrior adornments: jewelry, insignia\n- Color palette: Martial reds, golds, deep blues, earth tones\n- Artistic style: Indian classical warrior art tradition\n- Include warrior symbols and insignia\n- Mood: Martial, noble, confident, honorable\n- Lighting: Dramatic, emphasizing strength\n- Composition: Powerful, heroic stance\nPerfect for warrior characters on MyItihas",
+        "negative_prompt": "Modern soldier imagery, Western medieval warrior, anime, photorealism, brutality"
+      },
+      "Royal Family Member": {
+        "prompt": "An illustration of a Royal Family Member in classical Indian style.\nShow a noble royal figure with regal bearing. Include:\n- Royal figure in magnificent court attire\n- Rich royal clothing and ornate jewelry\n- Sense of nobility and royal responsibility\n- Regal bearing and dignified presence\n- Royal symbols: crown, scepter, or court markers\n- Color palette: Royal golds, purples, reds, ivory\n- Artistic style: Indian royal court art tradition\n- Include royal symbols and regalia\n- Mood: Regal, noble, dignified, authoritative\n- Lighting: Emphasizing royal magnificence\n- Composition: Majestic and commanding\nPerfect for royal character representations",
+        "negative_prompt": "Western royal imagery, modern clothing, anime, photorealism, servile posture"
+      },
+      "Devoted Seeker": {
+        "prompt": "An illustration of a Devoted Seeker in classical Indian style.\nShow a sincere spiritual aspirant on their path. Include:\n- Young or earnest seeker figure in humble devotion\n- Seeking posture: prayer, meditation, or learning\n- Sacred setting or spiritual journey implied\n- Sense of sincere spiritual longing\n- Simple but intentional attire and adornments\n- Color palette: Humble whites and earth tones, spiritual golds\n- Artistic style: Indian devotion and seeking art tradition\n- Include spiritual symbols\n- Mood: Sincere, spiritually driven, humble, determined\n- Lighting: Warm, spiritual illumination\n- Composition: Emphasizing spiritual yearning\nPerfect for seeker/devotee characters",
+        "negative_prompt": "Cynicism, Western spiritual tourism imagery, anime, photorealism, irony"
+      },
+      "Common Person": {
+        "prompt": "An illustration of a Common Person in classical Indian style.\nShow an ordinary person in daily life with dignity. Include:\n- Everyday person in humble but honest circumstances\n- Common attire: farmer's clothes, simple dress\n- Moment of dignity, wisdom, or virtue\n- Authentic human connection visible\n- Color palette: Warm earth tones, natural colors\n- Artistic style: Indian common people and folk art tradition\n- Include details of daily life\n- Mood: Grounded, dignified, human, relatable\n- Lighting: Natural, warm\n- Composition: Emphasizing common dignity\nPerfect for representing ordinary characters with inner worth",
+        "negative_prompt": "Condescension, Western folk imagery, anime, photorealism, stereotyping"
+      },
+      "Celestial Being": {
+        "prompt": "An illustration of a Celestial Being in classical Indian style.\nShow a heavenly inhabitant with ethereal presence. Include:\n- Celestial figure with heavenly attributes\n- Ethereal form with celestial characteristics\n- Sacred aura and otherworldly beauty\n- Heavenly setting or cosmic context\n- Celestial adornments and symbols\n- Color palette: Celestial blues, golds, whites, ethereal purples\n- Artistic style: Indian celestial and heavenly art tradition\n- Include cosmic symbols\n- Mood: Ethereal, heavenly, beautiful, transcendent\n- Lighting: Otherworldly celestial glow\n- Composition: Emphasizing heavenly nature\nPerfect for celestial character representations",
+        "negative_prompt": "Demonic imagery, Western angel concepts, anime, photorealism, mundane elements"
+      },
+      "Divine Animal": {
+        "prompt": "An illustration of a Divine Animal in classical Indian style.\nShow a sacred animal with spiritual significance. Include:\n- Sacred animal with divine presence\n- Animal depicted with spiritual power and meaning\n- Sacred setting or heavenly context\n- Divine aura around the animal\n- Specific sacred animal (peacock, cow, swan, etc.)\n- Color palette: Sacred golds, spiritual colors appropriate to animal\n- Artistic style: Indian sacred animal art tradition\n- Include divine symbols\n- Mood: Sacred, majestic, spiritually powerful\n- Lighting: Divine radiance\n- Composition: Emphasizing sacred nature\nPerfect for representing sacred animals in stories",
+        "negative_prompt": "Realistic wildlife photography, Western animal imagery, anime, cartoons, desecration"
+      },
+      "Asura/Rakshasa": {
+        "prompt": "An illustration of an Asura or Rakshasa in classical Indian style.\nShow a powerful antagonistic force with grandeur. Include:\n- Powerful, fearsome figure with supernatural power\n- Rakshasa features: multiple arms, intimidating presence (if lore appropriate)\n- Sense of terrible power and ambition\n- Sacred or cosmic dimension to the threat\n- Rich, powerful adornments despite antagonistic nature\n- Color palette: Dark reds, blacks, golds, deep purples\n- Artistic style: Indian rakshasa and asura art tradition\n- Include symbolic elements of power\n- Mood: Powerful, fearsome, grand, dangerous\n- Lighting: Dramatic and threatening\n- Composition: Emphasizing power and threat\nPerfect for antagonist characters on MyItihas",
+        "negative_prompt": "Demonic caricature, Western evil imagery, anime, cartoon grotesqueness, photorealism"
+      },
+      "Temple Priest": {
+        "prompt": "Create an image of a 'Temple Priest' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Mystic/Yogi": {
+        "prompt": "Create an image of a 'Mystic/Yogi' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Divine Guardian": {
+        "prompt": "Create an image of a 'Divine Guardian' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Spiritual Entity": {
+        "prompt": "Create an image of a 'Spiritual Entity' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Elemental Spirit": {
+        "prompt": "Create an image of a 'Elemental Spirit' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Mythical Creature": {
+        "prompt": "Create an image of a 'Mythical Creature' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Divine Avatar": {
+        "prompt": "Create an image of a 'Divine Avatar' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Goddess/Devi": {
+        "prompt": "Create an image of a 'Goddess/Devi' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Demoness/Rakshasi": {
+        "prompt": "Create an image of a 'Demoness/Rakshasi' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Epic Hero": {
+        "prompt": "Create an image of a 'Epic Hero' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Epic Villain": {
+        "prompt": "Create an image of a 'Epic Villain' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Divine Mentor": {
+        "prompt": "Create an image of a 'Divine Mentor' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Clever Courtier": {
+        "prompt": "Create an image of a 'Clever Courtier' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Wise Minister": {
+        "prompt": "Create an image of a 'Wise Minister' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Merchant/Trader": {
+        "prompt": "Create an image of a 'Merchant/Trader' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Farmer/Villager": {
+        "prompt": "Create an image of a 'Farmer/Villager' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Student/Disciple": {
+        "prompt": "Create an image of a 'Student/Disciple' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Forest Hermit": {
+        "prompt": "Create an image of a 'Forest Hermit' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Traveling Bard": {
+        "prompt": "Create an image of a 'Traveling Bard' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Royal Guard": {
+        "prompt": "Create an image of a 'Royal Guard' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Palace Servant": {
+        "prompt": "Create an image of a 'Palace Servant' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Clever Child": {
+        "prompt": "Create an image of a 'Clever Child' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Elderly Wise Person": {
+        "prompt": "Create an image of a 'Elderly Wise Person' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Talking Animal": {
+        "prompt": "Create an image of a 'Talking Animal' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Magical Being": {
+        "prompt": "Create an image of a 'Magical Being' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      },
+      "Ghost/Spirit": {
+        "prompt": "Create an image of a 'Ghost/Spirit' character type in classical Indian art style, suitable for MyItihas. Use warm tones, sacred symbols, and authentic cultural elements.",
+        "negative_prompt": "Modern setting, Western art style, anime, cartoon, neon colors, photorealism"
+      }
+    }
+  },
+  "setting": {
+    "types": {
+      "Sacred Forest": {
+        "prompt": "Create an atmospheric illustration of a 'Sacred Forest' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Ancient Kingdom": {
+        "prompt": "Create an atmospheric illustration of a 'Ancient Kingdom' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Sage's Ashram": {
+        "prompt": "Create an atmospheric illustration of a 'Sage's Ashram' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Epic Battlefield": {
+        "prompt": "Create an atmospheric illustration of a 'Epic Battlefield' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Celestial Realm": {
+        "prompt": "Create an atmospheric illustration of a 'Celestial Realm' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Holy Pilgrimage Site": {
+        "prompt": "Create an atmospheric illustration of a 'Holy Pilgrimage Site' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Ancient Village": {
+        "prompt": "Create an atmospheric illustration of a 'Ancient Village' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Royal Palace": {
+        "prompt": "Create an atmospheric illustration of a 'Royal Palace' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Sacred Mountain": {
+        "prompt": "Create an atmospheric illustration of a 'Sacred Mountain' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Holy River": {
+        "prompt": "Create an atmospheric illustration of a 'Holy River' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Ancient Temple": {
+        "prompt": "Create an atmospheric illustration of a 'Ancient Temple' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Mystical Cave": {
+        "prompt": "Create an atmospheric illustration of a 'Mystical Cave' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Sacred Island": {
+        "prompt": "Create an atmospheric illustration of a 'Sacred Island' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Spiritual Desert": {
+        "prompt": "Create an atmospheric illustration of a 'Spiritual Desert' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Royal Court": {
+        "prompt": "Create an atmospheric illustration of a 'Royal Court' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Marketplace": {
+        "prompt": "Create an atmospheric illustration of a 'Marketplace' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Gurukul School": {
+        "prompt": "Create an atmospheric illustration of a 'Gurukul School' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Monastery": {
+        "prompt": "Create an atmospheric illustration of a 'Monastery' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Ancient Library": {
+        "prompt": "Create an atmospheric illustration of a 'Ancient Library' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Enchanted Garden": {
+        "prompt": "Create an atmospheric illustration of a 'Enchanted Garden' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Riverside Ghat": {
+        "prompt": "Create an atmospheric illustration of a 'Riverside Ghat' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Mountain Pass": {
+        "prompt": "Create an atmospheric illustration of a 'Mountain Pass' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Desert Oasis": {
+        "prompt": "Create an atmospheric illustration of a 'Desert Oasis' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Jungle Clearing": {
+        "prompt": "Create an atmospheric illustration of a 'Jungle Clearing' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Ancient City": {
+        "prompt": "Create an atmospheric illustration of a 'Ancient City' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Hermit's Hut": {
+        "prompt": "Create an atmospheric illustration of a 'Hermit's Hut' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Palace Gardens": {
+        "prompt": "Create an atmospheric illustration of a 'Palace Gardens' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Village Square": {
+        "prompt": "Create an atmospheric illustration of a 'Village Square' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Sacred Grove": {
+        "prompt": "Create an atmospheric illustration of a 'Sacred Grove' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Crossroads": {
+        "prompt": "Create an atmospheric illustration of a 'Crossroads' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Ancient Ruins": {
+        "prompt": "Create an atmospheric illustration of a 'Ancient Ruins' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Magical Realm": {
+        "prompt": "Create an atmospheric illustration of a 'Magical Realm' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Underwater Kingdom": {
+        "prompt": "Create an atmospheric illustration of a 'Underwater Kingdom' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      },
+      "Sky Palace": {
+        "prompt": "Create an atmospheric illustration of a 'Sky Palace' setting for MyItihas.\nDepict this location with historical accuracy and spiritual ambiance. Include:\n- Detailed architectural or natural features appropriate to the setting\n- Period-accurate details and materials\n- Warm, inviting atmosphere with spiritual undertones\n- Sacred or historically significant elements\n- Empty or with narrative context figures if appropriate\n- Color palette: Warm golds, earth tones, spiritual blues and greens\n- Artistic style: Classical Indian landscape and architecture art\n- Include culturally appropriate details and symbols\n- Mood: Historically resonant, spiritually significant, inviting\n- Lighting: Appropriate to the setting's sacred nature\n- Composition: Emphasizing the setting's unique character\nSuitable for story setting representations on MyItihas",
+        "negative_prompt": "Modern development, Western architectural style, anime, photorealism, desecration of sacred sites"
+      }
+    }
+  },
+  "length": {
+    "types": {
+      "Brief Tale": {
+        "prompt": "Create a focused, elegant illustration suggesting a brief, concentrated narrative.\nThe image should convey: completeness, intimate scale, singular moment, understated power.\nInclude a simple but meaningful scene with classical Indian art elements. Suitable for a short story thumbnail.",
+        "negative_prompt": "Overly complex, multiple narratives, grand scale, cluttered composition"
+      },
+      "Medium Length": {
+        "prompt": "Create an illustration suggesting a medium-length narrative with development.\nThe image should convey: narrative progression, character development, developed setting.\nInclude a scene with classical Indian elements and enough detail for a moderate story. Suitable for mid-length story representation.",
+        "negative_prompt": "Oversimplification, single moment only, too grand, chaotic"
+      },
+      "Extended Narrative": {
+        "prompt": "Create an illustration suggesting an extended, developed narrative.\nThe image should convey: journey, complexity, layered meaning, rich detail.\nInclude multiple elements, developed characters, and atmospheric depth in classical Indian style. Suitable for longer story representation.",
+        "negative_prompt": "Oversimplification, flat composition, insufficient detail"
+      },
+      "Epic Length": {
+        "prompt": "Create a grand, monumental illustration suggesting an epic-length narrative.\nThe image should convey: epic scale, universal significance, cosmic importance, timeless quality.\nInclude majestic scenes with multiple layers, divine elements, and sweeping scope. Suitable for epic story representation.",
+        "negative_prompt": "Intimate or small-scale imagery, oversimplification, lack of grandeur"
+      }
+    }
+  },
+  "language": {
+    "types": {
+      "English": {
+        "prompt": "Create an illustration suitable for 'English' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'English'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Hindi": {
+        "prompt": "Create an illustration suitable for 'Hindi' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Hindi'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Telugu": {
+        "prompt": "Create an illustration suitable for 'Telugu' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Telugu'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Tamil": {
+        "prompt": "Create an illustration suitable for 'Tamil' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Tamil'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Kannada": {
+        "prompt": "Create an illustration suitable for 'Kannada' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Kannada'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Malayalam": {
+        "prompt": "Create an illustration suitable for 'Malayalam' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Malayalam'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Bengali": {
+        "prompt": "Create an illustration suitable for 'Bengali' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Bengali'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Gujarati": {
+        "prompt": "Create an illustration suitable for 'Gujarati' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Gujarati'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Marathi": {
+        "prompt": "Create an illustration suitable for 'Marathi' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Marathi'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Punjabi": {
+        "prompt": "Create an illustration suitable for 'Punjabi' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Punjabi'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Odia": {
+        "prompt": "Create an illustration suitable for 'Odia' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Odia'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Assamese": {
+        "prompt": "Create an illustration suitable for 'Assamese' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Assamese'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Nepali": {
+        "prompt": "Create an illustration suitable for 'Nepali' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Nepali'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Sanskrit": {
+        "prompt": "Create an illustration suitable for 'Sanskrit' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Sanskrit'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Urdu": {
+        "prompt": "Create an illustration suitable for 'Urdu' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Urdu'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Bhojpuri": {
+        "prompt": "Create an illustration suitable for 'Bhojpuri' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Bhojpuri'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Kashmiri": {
+        "prompt": "Create an illustration suitable for 'Kashmiri' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Kashmiri'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Konkani": {
+        "prompt": "Create an illustration suitable for 'Konkani' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Konkani'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Manipuri": {
+        "prompt": "Create an illustration suitable for 'Manipuri' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Manipuri'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Santali": {
+        "prompt": "Create an illustration suitable for 'Santali' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Santali'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Dogri": {
+        "prompt": "Create an illustration suitable for 'Dogri' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Dogri'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      },
+      "Maithili": {
+        "prompt": "Create an illustration suitable for 'Maithili' language content on MyItihas.\nThe image should represent the cultural heritage and linguistic traditions of 'Maithili'-speaking regions.\nInclude appropriate cultural elements, regional artistic traditions, and classical Indian aesthetics.\nThe imagery should be culturally authentic while maintaining universal appeal and spiritual resonance.",
+        "negative_prompt": "Stereotyping, cultural insensitivity, modern commercial imagery, anime"
+      }
+    }
+  }
+}
